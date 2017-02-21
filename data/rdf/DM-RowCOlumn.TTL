@@ -1,0 +1,130 @@
+@prefix EG:    <http://www.example.org/cdiscpilot01#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+EG:Person_4  rdfs:type  EG:Person ;
+        EG:hasActArm    "Xanomeline Low Dose"^^xsd:string ;
+        EG:hasActArmCd  "Xan_Lo"^^xsd:string ;
+        EG:hasAge       74 ;
+        EG:hasAgeU      "YEARS"^^xsd:string ;
+        EG:hasArm       "Xanomeline Low Dose"^^xsd:string ;
+        EG:hasArmcd     "Xan_Lo"^^xsd:string ;
+        EG:hasCountry   "USA"^^xsd:string ;
+        EG:hasDmdtc     "2014-03-10"^^xsd:date ;
+        EG:hasDmdy      -8 ;
+        EG:hasDomain    "DM"^^xsd:string ;
+        EG:hasEthnic    "NOT HISPANIC OR LATINO"^^xsd:string ;
+        EG:hasRace      "WHITE"^^xsd:string ;
+        EG:hasRfendtc   "2014-04-14"^^xsd:date ;
+        EG:hasRfpendtc  "2014-09-15"^^xsd:date ;
+        EG:hasRfstdtc   "2014-03-18"^^xsd:date ;
+        EG:hasRfxendtc  "2014-03-31"^^xsd:date ;
+        EG:hasRfxstdtc  "2014-03-18"^^xsd:date ;
+        EG:hasSex       "M"^^xsd:string ;
+        EG:hasSiteID    "701"^^xsd:string ;
+        EG:hasStudyID   "CDISCPILOT01"^^xsd:string ;
+        EG:hasSubjid    "1033"^^xsd:string ;
+        EG:hasUsubjid   "01-701-1033"^^xsd:string ;
+        EG:hasrficdtc   "2014-03-18"^^xsd:date .
+
+EG:Person_2  rdfs:type  EG:Person ;
+        EG:hasActArm    "Placebo"^^xsd:string ;
+        EG:hasActArmCd  "Pbo"^^xsd:string ;
+        EG:hasAge       64 ;
+        EG:hasAgeU      "YEARS"^^xsd:string ;
+        EG:hasArm       "Placebo"^^xsd:string ;
+        EG:hasArmcd     "Pbo"^^xsd:string ;
+        EG:hasCountry   "USA"^^xsd:string ;
+        EG:hasDmdtc     "2012-07-22"^^xsd:date ;
+        EG:hasDmdy      -14 ;
+        EG:hasDomain    "DM"^^xsd:string ;
+        EG:hasEthnic    "HISPANIC OR LATINO"^^xsd:string ;
+        EG:hasRace      "WHITE"^^xsd:string ;
+        EG:hasRfendtc   "2012-09-02"^^xsd:date ;
+        EG:hasRfpendtc  "2013-02-18"^^xsd:date ;
+        EG:hasRfstdtc   "2012-08-05"^^xsd:date ;
+        EG:hasRfxendtc  "2012-09-01"^^xsd:date ;
+        EG:hasRfxstdtc  "2012-08-05"^^xsd:date ;
+        EG:hasSex       "M"^^xsd:string ;
+        EG:hasSiteID    "701"^^xsd:string ;
+        EG:hasStudyID   "CDISCPILOT01"^^xsd:string ;
+        EG:hasSubjid    "1023"^^xsd:string ;
+        EG:hasUsubjid   "01-701-1023"^^xsd:string ;
+        EG:hasrficdtc   "2012-08-05"^^xsd:date .
+
+EG:Person_5  rdfs:type  EG:Person ;
+        EG:hasActArm    "Xanomeline High Dose"^^xsd:string ;
+        EG:hasActArmCd  "Xan_Hi"^^xsd:string ;
+        EG:hasAge       77 ;
+        EG:hasAgeU      "YEARS"^^xsd:string ;
+        EG:hasArm       "Xanomeline High Dose"^^xsd:string ;
+        EG:hasArmcd     "Xan_Hi"^^xsd:string ;
+        EG:hasCountry   "USA"^^xsd:string ;
+        EG:hasDmdtc     "2014-06-24"^^xsd:date ;
+        EG:hasDmdy      -7 ;
+        EG:hasDomain    "DM"^^xsd:string ;
+        EG:hasEthnic    "NOT HISPANIC OR LATINO"^^xsd:string ;
+        EG:hasRace      "WHITE"^^xsd:string ;
+        EG:hasRfendtc   "2014-12-30"^^xsd:date ;
+        EG:hasRfpendtc  "2014-12-30"^^xsd:date ;
+        EG:hasRfstdtc   "2014-07-01"^^xsd:date ;
+        EG:hasRfxendtc  "2014-12-30"^^xsd:date ;
+        EG:hasRfxstdtc  "2014-07-01"^^xsd:date ;
+        EG:hasSex       "F"^^xsd:string ;
+        EG:hasSiteID    "701"^^xsd:string ;
+        EG:hasStudyID   "CDISCPILOT01"^^xsd:string ;
+        EG:hasSubjid    "1034"^^xsd:string ;
+        EG:hasUsubjid   "01-701-1034"^^xsd:string ;
+        EG:hasrficdtc   "2014-07-01"^^xsd:date .
+
+EG:Person_3  rdfs:type  EG:Person ;
+        EG:hasActArm    "Xanomeline High Dose"^^xsd:string ;
+        EG:hasActArmCd  "Xan_Hi"^^xsd:string ;
+        EG:hasAge       71 ;
+        EG:hasAgeU      "YEARS"^^xsd:string ;
+        EG:hasArm       "Xanomeline High Dose"^^xsd:string ;
+        EG:hasArmcd     "Xan_Hi"^^xsd:string ;
+        EG:hasCountry   "USA"^^xsd:string ;
+        EG:hasDmdtc     "2013-07-11"^^xsd:date ;
+        EG:hasDmdy      -8 ;
+        EG:hasDomain    "DM"^^xsd:string ;
+        EG:hasEthnic    "NOT HISPANIC OR LATINO"^^xsd:string ;
+        EG:hasRace      "WHITE"^^xsd:string ;
+        EG:hasRfendtc   "2014-01-14"^^xsd:date ;
+        EG:hasRfpendtc  "2014-01-14"^^xsd:date ;
+        EG:hasRfstdtc   "2013-07-19"^^xsd:date ;
+        EG:hasRfxendtc  "2014-01-14"^^xsd:date ;
+        EG:hasRfxstdtc  "2013-07-19"^^xsd:date ;
+        EG:hasSex       "M"^^xsd:string ;
+        EG:hasSiteID    "701"^^xsd:string ;
+        EG:hasStudyID   "CDISCPILOT01"^^xsd:string ;
+        EG:hasSubjid    "1028"^^xsd:string ;
+        EG:hasUsubjid   "01-701-1028"^^xsd:string ;
+        EG:hasrficdtc   "2013-07-19"^^xsd:date .
+
+EG:Person_1  rdfs:type  EG:Person ;
+        EG:hasActArm    "Placebo"^^xsd:string ;
+        EG:hasActArmCd  "Pbo"^^xsd:string ;
+        EG:hasAge       63 ;
+        EG:hasAgeU      "YEARS"^^xsd:string ;
+        EG:hasArm       "Placebo"^^xsd:string ;
+        EG:hasArmcd     "Pbo"^^xsd:string ;
+        EG:hasCountry   "USA"^^xsd:string ;
+        EG:hasDmdtc     "2013-12-26"^^xsd:date ;
+        EG:hasDmdy      -7 ;
+        EG:hasDomain    "DM"^^xsd:string ;
+        EG:hasEthnic    "HISPANIC OR LATINO"^^xsd:string ;
+        EG:hasRace      "WHITE"^^xsd:string ;
+        EG:hasRfendtc   "2014-07-02"^^xsd:date ;
+        EG:hasRfpendtc  "2014-07-02"^^xsd:date ;
+        EG:hasRfstdtc   "2014-01-02"^^xsd:date ;
+        EG:hasRfxendtc  "2014-07-02"^^xsd:date ;
+        EG:hasRfxstdtc  "2014-01-02"^^xsd:date ;
+        EG:hasSex       "F"^^xsd:string ;
+        EG:hasSiteID    "701"^^xsd:string ;
+        EG:hasStudyID   "CDISCPILOT01"^^xsd:string ;
+        EG:hasSubjid    "1015"^^xsd:string ;
+        EG:hasUsubjid   "01-701-1015"^^xsd:string ;
+        EG:hasrficdtc   "2014-01-02"^^xsd:date .
